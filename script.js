@@ -15,7 +15,7 @@ var rSpeed = 0;
 
 function setup() {
   createCanvas(400, 300);
-  xSpeed = random(-2, 2);
+  xSpeed = random(-5, 5);
   ySpeed = random(-2, 2);
   rSpeed = random(-.05, .05);
 }
