@@ -24,6 +24,10 @@ function setup() {
 function draw() {
   //Let's draw a frog!
   background(200);
+  fill(0)
+  strokeWeight(1);
+  textSize(20);
+  text("Draw a Frog the Ed Emberley way!", 20, 40);
   translate(x, y);
   rotate(r);
   r += rSpeed;
